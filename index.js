@@ -23,8 +23,8 @@ router.get('/', (req, res) => {
 })
 
 router.post('/events', (req, res) => {
-    console.log(req.body || 'empty request body');
-    res.write(req.body);
+    console.log(req);
+    res.write('test event');
     res.end();
 });
 
