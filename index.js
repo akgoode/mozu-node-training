@@ -22,6 +22,12 @@ router.get('/', (req, res) => {
     displayForm(res, 'index.html');
 })
 
+// this is what appears in the configuration section of the app menu
+// a post request to the url set in the packages tab in the app record in dev center
+router.post('/', (req, res) => {
+    displayForm(res, 'index.html');
+})
+
 router.post('/events', (req, res) => {
     console.log(req);
     res.write('test event');
