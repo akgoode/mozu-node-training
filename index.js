@@ -43,6 +43,12 @@ router.post('/events', (req, res) => {
     res.end();
 });
 
+router.post('/productEvents', (req, res) => {
+    console.log('This was a product event');
+    res.write('test event');
+    res.end();
+});
+
 // Route for configuration form submission
 router.post('/config', (req, res) => {
     displayForm(res, 'config/thankyou.html');

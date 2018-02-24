@@ -1,0 +1,597 @@
+{
+    "startIndex": 0,
+    "pageSize": 20,
+    "pageCount": 2,
+    "totalCount": 24,
+    "items": [
+      {
+        "id": 1,
+        "categoryType": "Static",
+        "catalogId": 1,
+        "categoryCode": "1",
+        "isActive": true,
+        "isDisplayed": true,
+        "sequence": 1,
+        "content": {
+          "name": "What's New",
+          "description": "What's New",
+          "pageTitle": "What's New",
+          "localeCode": "en-US",
+          "metaTagTitle": "What's New",
+          "metaTagDescription": "What's New",
+          "metaTagKeywords": "What's New",
+          "slug": "what-s-new"
+        },
+        "productCount": 1,
+        "childCount": 0,
+        "auditInfo": {
+          "updateDate": "2013-10-03T22:59:15.046Z",
+          "createDate": "2013-10-03T22:59:15.046Z",
+          "updateBy": "c220cbcd9ca346698987a19e0081eecc",
+          "createBy": "c220cbcd9ca346698987a19e0081eecc"
+        }
+      },
+      {
+        "id": 2,
+        "categoryType": "Static",
+        "catalogId": 1,
+        "categoryCode": "2",
+        "isActive": true,
+        "isDisplayed": true,
+        "sequence": 2,
+        "content": {
+          "name": "Clothing",
+          "description": "Clothing",
+          "pageTitle": "Clothing",
+          "localeCode": "en-US",
+          "metaTagTitle": "Clothing",
+          "metaTagDescription": "Clothing",
+          "metaTagKeywords": "Clothing",
+          "slug": "clothing"
+        },
+        "productCount": 21,
+        "childCount": 11,
+        "auditInfo": {
+          "updateDate": "2013-10-03T22:59:15.499Z",
+          "createDate": "2013-10-03T22:59:15.499Z",
+          "updateBy": "c220cbcd9ca346698987a19e0081eecc",
+          "createBy": "c220cbcd9ca346698987a19e0081eecc"
+        }
+      },
+      {
+        "id": 3,
+        "categoryType": "Static",
+        "catalogId": 1,
+        "categoryCode": "3",
+        "isActive": true,
+        "isDisplayed": true,
+        "sequence": 3,
+        "content": {
+          "name": "Bags",
+          "description": "Bags",
+          "pageTitle": "Bags",
+          "localeCode": "en-US",
+          "metaTagTitle": "Bags",
+          "metaTagDescription": "Bags",
+          "metaTagKeywords": "Bags",
+          "slug": "bags"
+        },
+        "productCount": 2,
+        "childCount": 0,
+        "auditInfo": {
+          "updateDate": "2013-10-03T22:59:15.937Z",
+          "createDate": "2013-10-03T22:59:15.937Z",
+          "updateBy": "c220cbcd9ca346698987a19e0081eecc",
+          "createBy": "c220cbcd9ca346698987a19e0081eecc"
+        }
+      },
+      {
+        "id": 4,
+        "categoryType": "Static",
+        "catalogId": 1,
+        "categoryCode": "4",
+        "isActive": true,
+        "isDisplayed": true,
+        "sequence": 4,
+        "content": {
+          "name": "Shoes",
+          "description": "Shoes",
+          "pageTitle": "Shoes",
+          "localeCode": "en-US",
+          "metaTagTitle": "Shoes",
+          "metaTagDescription": "Shoes",
+          "metaTagKeywords": "Shoes",
+          "slug": "shoes"
+        },
+        "productCount": 8,
+        "childCount": 1,
+        "auditInfo": {
+          "updateDate": "2013-10-03T22:59:16.390Z",
+          "createDate": "2013-10-03T22:59:16.390Z",
+          "updateBy": "c220cbcd9ca346698987a19e0081eecc",
+          "createBy": "c220cbcd9ca346698987a19e0081eecc"
+        }
+      },
+      {
+        "id": 5,
+        "categoryType": "Static",
+        "catalogId": 1,
+        "categoryCode": "5",
+        "isActive": true,
+        "isDisplayed": true,
+        "sequence": 5,
+        "content": {
+          "name": "Jewlery",
+          "description": "Jewlery",
+          "pageTitle": "Jewlery",
+          "localeCode": "en-US",
+          "metaTagTitle": "Jewlery",
+          "metaTagDescription": "Jewlery",
+          "metaTagKeywords": "Jewlery",
+          "slug": "jewlery"
+        },
+        "productCount": 0,
+        "childCount": 0,
+        "auditInfo": {
+          "updateDate": "2013-10-03T22:59:16.827Z",
+          "createDate": "2013-10-03T22:59:16.827Z",
+          "updateBy": "c220cbcd9ca346698987a19e0081eecc",
+          "createBy": "c220cbcd9ca346698987a19e0081eecc"
+        }
+      },
+      {
+        "id": 6,
+        "categoryType": "Static",
+        "catalogId": 1,
+        "categoryCode": "6",
+        "isActive": true,
+        "isDisplayed": true,
+        "sequence": 6,
+        "content": {
+          "name": "Accessories",
+          "description": "Accessories",
+          "pageTitle": "Accessories",
+          "localeCode": "en-US",
+          "metaTagTitle": "Accessories",
+          "metaTagDescription": "Accessories",
+          "metaTagKeywords": "Accessories",
+          "slug": "accessories"
+        },
+        "productCount": 4,
+        "childCount": 0,
+        "auditInfo": {
+          "updateDate": "2013-10-03T22:59:17.296Z",
+          "createDate": "2013-10-03T22:59:17.296Z",
+          "updateBy": "c220cbcd9ca346698987a19e0081eecc",
+          "createBy": "c220cbcd9ca346698987a19e0081eecc"
+        }
+      },
+      {
+        "id": 7,
+        "categoryType": "Static",
+        "catalogId": 1,
+        "categoryCode": "7",
+        "isActive": true,
+        "isDisplayed": true,
+        "sequence": 7,
+        "content": {
+          "name": "Collections",
+          "description": "Collections",
+          "pageTitle": "Collections",
+          "localeCode": "en-US",
+          "metaTagTitle": "Collections",
+          "metaTagDescription": "Collections",
+          "metaTagKeywords": "Collections",
+          "slug": "collections"
+        },
+        "productCount": 0,
+        "childCount": 0,
+        "auditInfo": {
+          "updateDate": "2013-10-03T22:59:17.718Z",
+          "createDate": "2013-10-03T22:59:17.718Z",
+          "updateBy": "c220cbcd9ca346698987a19e0081eecc",
+          "createBy": "c220cbcd9ca346698987a19e0081eecc"
+        }
+      },
+      {
+        "id": 8,
+        "categoryType": "Static",
+        "catalogId": 1,
+        "categoryCode": "8",
+        "isActive": true,
+        "isDisplayed": true,
+        "sequence": 8,
+        "content": {
+          "name": "Sale",
+          "description": "Sale",
+          "pageTitle": "Sale",
+          "localeCode": "en-US",
+          "metaTagTitle": "Sale",
+          "metaTagDescription": "Sale",
+          "metaTagKeywords": "Sale",
+          "slug": "sale"
+        },
+        "productCount": 4,
+        "childCount": 0,
+        "auditInfo": {
+          "updateDate": "2013-10-03T22:59:18.171Z",
+          "createDate": "2013-10-03T22:59:18.171Z",
+          "updateBy": "c220cbcd9ca346698987a19e0081eecc",
+          "createBy": "c220cbcd9ca346698987a19e0081eecc"
+        }
+      },
+      {
+        "id": 9,
+        "categoryType": "Static",
+        "catalogId": 1,
+        "parentCategoryId": 2,
+        "parentCategoryCode": "2",
+        "parentCategoryName": "Clothing",
+        "parentIsActive": true,
+        "categoryCode": "9",
+        "isActive": true,
+        "isDisplayed": true,
+        "sequence": 1,
+        "content": {
+          "name": "Dresses & Jumpsuits",
+          "description": "Dresses & Jumpsuits",
+          "pageTitle": "Dresses & Jumpsuits",
+          "localeCode": "en-US",
+          "metaTagTitle": "Dresses & Jumpsuits",
+          "metaTagDescription": "Dresses & Jumpsuits",
+          "metaTagKeywords": "Dresses & Jumpsuits",
+          "slug": "dresses-jumpsuits"
+        },
+        "productCount": 17,
+        "childCount": 0,
+        "auditInfo": {
+          "updateDate": "2013-10-03T22:59:18.609Z",
+          "createDate": "2013-10-03T22:59:18.609Z",
+          "updateBy": "c220cbcd9ca346698987a19e0081eecc",
+          "createBy": "c220cbcd9ca346698987a19e0081eecc"
+        }
+      },
+      {
+        "id": 10,
+        "categoryType": "Static",
+        "catalogId": 1,
+        "parentCategoryId": 2,
+        "parentCategoryCode": "2",
+        "parentCategoryName": "Clothing",
+        "parentIsActive": true,
+        "categoryCode": "10",
+        "isActive": true,
+        "isDisplayed": true,
+        "sequence": 2,
+        "content": {
+          "name": "Skirts",
+          "description": "Skirts",
+          "pageTitle": "Skirts",
+          "localeCode": "en-US",
+          "metaTagTitle": "Skirts",
+          "metaTagDescription": "Skirts",
+          "metaTagKeywords": "Skirts",
+          "slug": "skirts"
+        },
+        "productCount": 0,
+        "childCount": 0,
+        "auditInfo": {
+          "updateDate": "2013-10-03T22:59:19.046Z",
+          "createDate": "2013-10-03T22:59:19.046Z",
+          "updateBy": "c220cbcd9ca346698987a19e0081eecc",
+          "createBy": "c220cbcd9ca346698987a19e0081eecc"
+        }
+      },
+      {
+        "id": 11,
+        "categoryType": "Static",
+        "catalogId": 1,
+        "parentCategoryId": 2,
+        "parentCategoryCode": "2",
+        "parentCategoryName": "Clothing",
+        "parentIsActive": true,
+        "categoryCode": "11",
+        "isActive": true,
+        "isDisplayed": true,
+        "sequence": 3,
+        "content": {
+          "name": "Suiting",
+          "description": "Suiting",
+          "pageTitle": "Suiting",
+          "localeCode": "en-US",
+          "metaTagTitle": "Suiting",
+          "metaTagDescription": "Suiting",
+          "metaTagKeywords": "Suiting",
+          "slug": "suiting"
+        },
+        "productCount": 0,
+        "childCount": 0,
+        "auditInfo": {
+          "updateDate": "2013-10-03T22:59:19.499Z",
+          "createDate": "2013-10-03T22:59:19.499Z",
+          "updateBy": "c220cbcd9ca346698987a19e0081eecc",
+          "createBy": "c220cbcd9ca346698987a19e0081eecc"
+        }
+      },
+      {
+        "id": 12,
+        "categoryType": "Static",
+        "catalogId": 1,
+        "parentCategoryId": 2,
+        "parentCategoryCode": "2",
+        "parentCategoryName": "Clothing",
+        "parentIsActive": true,
+        "categoryCode": "12",
+        "isActive": true,
+        "isDisplayed": true,
+        "sequence": 4,
+        "content": {
+          "name": "Blazers",
+          "description": "Blazers",
+          "pageTitle": "Blazers",
+          "localeCode": "en-US",
+          "metaTagTitle": "Blazers",
+          "metaTagDescription": "Blazers",
+          "metaTagKeywords": "Blazers",
+          "slug": "blazers"
+        },
+        "productCount": 1,
+        "childCount": 0,
+        "auditInfo": {
+          "updateDate": "2013-10-03T22:59:19.953Z",
+          "createDate": "2013-10-03T22:59:19.953Z",
+          "updateBy": "c220cbcd9ca346698987a19e0081eecc",
+          "createBy": "c220cbcd9ca346698987a19e0081eecc"
+        }
+      },
+      {
+        "id": 13,
+        "categoryType": "Static",
+        "catalogId": 1,
+        "parentCategoryId": 2,
+        "parentCategoryCode": "2",
+        "parentCategoryName": "Clothing",
+        "parentIsActive": true,
+        "categoryCode": "13",
+        "isActive": true,
+        "isDisplayed": true,
+        "sequence": 5,
+        "content": {
+          "name": "Dress Pants",
+          "description": "Dress Pants",
+          "pageTitle": "Dress Pants",
+          "localeCode": "en-US",
+          "metaTagTitle": "Dress Pants",
+          "metaTagDescription": "Dress Pants",
+          "metaTagKeywords": "Dress Pants",
+          "slug": "dress-pants"
+        },
+        "productCount": 0,
+        "childCount": 1,
+        "auditInfo": {
+          "updateDate": "2013-10-03T22:59:20.390Z",
+          "createDate": "2013-10-03T22:59:20.390Z",
+          "updateBy": "c220cbcd9ca346698987a19e0081eecc",
+          "createBy": "c220cbcd9ca346698987a19e0081eecc"
+        }
+      },
+      {
+        "id": 14,
+        "categoryType": "Static",
+        "catalogId": 1,
+        "parentCategoryId": 2,
+        "parentCategoryCode": "2",
+        "parentCategoryName": "Clothing",
+        "parentIsActive": true,
+        "categoryCode": "14",
+        "isActive": true,
+        "isDisplayed": true,
+        "sequence": 6,
+        "content": {
+          "name": "Outerwear",
+          "description": "Outerwear",
+          "pageTitle": "Outerwear",
+          "localeCode": "en-US",
+          "metaTagTitle": "Outerwear",
+          "metaTagDescription": "Outerwear",
+          "metaTagKeywords": "Outerwear",
+          "slug": "outerwear"
+        },
+        "productCount": 1,
+        "childCount": 0,
+        "auditInfo": {
+          "updateDate": "2013-10-03T22:59:20.843Z",
+          "createDate": "2013-10-03T22:59:20.843Z",
+          "updateBy": "c220cbcd9ca346698987a19e0081eecc",
+          "createBy": "c220cbcd9ca346698987a19e0081eecc"
+        }
+      },
+      {
+        "id": 15,
+        "categoryType": "Static",
+        "catalogId": 1,
+        "parentCategoryId": 2,
+        "parentCategoryCode": "2",
+        "parentCategoryName": "Clothing",
+        "parentIsActive": true,
+        "categoryCode": "15",
+        "isActive": true,
+        "isDisplayed": true,
+        "sequence": 7,
+        "content": {
+          "name": "Leather Jackets & Fur",
+          "description": "Leather Jackets & Fur",
+          "pageTitle": "Leather Jackets & Fur",
+          "localeCode": "en-US",
+          "metaTagTitle": "Leather Jackets & Fur",
+          "metaTagDescription": "Leather Jackets & Fur",
+          "metaTagKeywords": "Leather Jackets & Fur",
+          "slug": "leather-jackets-fur"
+        },
+        "productCount": 1,
+        "childCount": 0,
+        "auditInfo": {
+          "updateDate": "2013-10-03T22:59:21.296Z",
+          "createDate": "2013-10-03T22:59:21.296Z",
+          "updateBy": "c220cbcd9ca346698987a19e0081eecc",
+          "createBy": "c220cbcd9ca346698987a19e0081eecc"
+        }
+      },
+      {
+        "id": 16,
+        "categoryType": "Static",
+        "catalogId": 1,
+        "parentCategoryId": 2,
+        "parentCategoryCode": "2",
+        "parentCategoryName": "Clothing",
+        "parentIsActive": true,
+        "categoryCode": "16",
+        "isActive": true,
+        "isDisplayed": true,
+        "sequence": 8,
+        "content": {
+          "name": "Tops & Blouses",
+          "description": "Tops & Blouses",
+          "pageTitle": "Tops & Blouses",
+          "localeCode": "en-US",
+          "metaTagTitle": "Tops & Blouses",
+          "metaTagDescription": "Tops & Blouses",
+          "metaTagKeywords": "Tops & Blouses",
+          "slug": "tops-blouses"
+        },
+        "productCount": 2,
+        "childCount": 0,
+        "auditInfo": {
+          "updateDate": "2013-10-03T22:59:21.734Z",
+          "createDate": "2013-10-03T22:59:21.734Z",
+          "updateBy": "c220cbcd9ca346698987a19e0081eecc",
+          "createBy": "c220cbcd9ca346698987a19e0081eecc"
+        }
+      },
+      {
+        "id": 17,
+        "categoryType": "Static",
+        "catalogId": 1,
+        "parentCategoryId": 2,
+        "parentCategoryCode": "2",
+        "parentCategoryName": "Clothing",
+        "parentIsActive": true,
+        "categoryCode": "17",
+        "isActive": true,
+        "isDisplayed": true,
+        "sequence": 9,
+        "content": {
+          "name": "Sweaters",
+          "description": "Sweaters",
+          "pageTitle": "Sweaters",
+          "localeCode": "en-US",
+          "metaTagTitle": "Sweaters",
+          "metaTagDescription": "Sweaters",
+          "metaTagKeywords": "Sweaters",
+          "slug": "sweaters"
+        },
+        "productCount": 0,
+        "childCount": 0,
+        "auditInfo": {
+          "updateDate": "2013-10-03T22:59:22.187Z",
+          "createDate": "2013-10-03T22:59:22.187Z",
+          "updateBy": "c220cbcd9ca346698987a19e0081eecc",
+          "createBy": "c220cbcd9ca346698987a19e0081eecc"
+        }
+      },
+      {
+        "id": 18,
+        "categoryType": "Static",
+        "catalogId": 1,
+        "parentCategoryId": 2,
+        "parentCategoryCode": "2",
+        "parentCategoryName": "Clothing",
+        "parentIsActive": true,
+        "categoryCode": "18",
+        "isActive": true,
+        "isDisplayed": true,
+        "sequence": 10,
+        "content": {
+          "name": "T-Shirts & Polos",
+          "description": "T-Shirts & Polos",
+          "pageTitle": "T-Shirts & Polos",
+          "localeCode": "en-US",
+          "metaTagTitle": "T-Shirts & Polos",
+          "metaTagDescription": "T-Shirts & Polos",
+          "metaTagKeywords": "T-Shirts & Polos",
+          "slug": "t-shirts-polos"
+        },
+        "productCount": 0,
+        "childCount": 0,
+        "auditInfo": {
+          "updateDate": "2013-10-03T22:59:22.640Z",
+          "createDate": "2013-10-03T22:59:22.640Z",
+          "updateBy": "c220cbcd9ca346698987a19e0081eecc",
+          "createBy": "c220cbcd9ca346698987a19e0081eecc"
+        }
+      },
+      {
+        "id": 19,
+        "categoryType": "Static",
+        "catalogId": 1,
+        "parentCategoryId": 2,
+        "parentCategoryCode": "2",
+        "parentCategoryName": "Clothing",
+        "parentIsActive": true,
+        "categoryCode": "19",
+        "isActive": true,
+        "isDisplayed": true,
+        "sequence": 11,
+        "content": {
+          "name": "Jeans & Casual Pants",
+          "description": "Jeans & Casual Pants",
+          "pageTitle": "Jeans & Casual Pants",
+          "localeCode": "en-US",
+          "metaTagTitle": "Jeans & Casual Pants",
+          "metaTagDescription": "Jeans & Casual Pants",
+          "metaTagKeywords": "Jeans & Casual Pants",
+          "slug": "jeans-casual-pants"
+        },
+        "productCount": 0,
+        "childCount": 0,
+        "auditInfo": {
+          "updateDate": "2013-10-03T22:59:23.078Z",
+          "createDate": "2013-10-03T22:59:23.078Z",
+          "updateBy": "c220cbcd9ca346698987a19e0081eecc",
+          "createBy": "c220cbcd9ca346698987a19e0081eecc"
+        }
+      },
+      {
+        "id": 20,
+        "categoryType": "Static",
+        "catalogId": 1,
+        "parentCategoryId": 13,
+        "parentCategoryCode": "13",
+        "parentCategoryName": "Dress Pants",
+        "parentIsActive": true,
+        "categoryCode": "20",
+        "isActive": true,
+        "isDisplayed": true,
+        "sequence": 1,
+        "content": {
+          "name": "Slacks",
+          "description": "Slacks",
+          "pageTitle": "Slacks",
+          "localeCode": "en-US",
+          "metaTagTitle": "Slacks",
+          "metaTagDescription": "Slacks",
+          "metaTagKeywords": "Slacks",
+          "slug": "slacks"
+        },
+        "productCount": 0,
+        "childCount": 0,
+        "auditInfo": {
+          "updateDate": "2013-10-03T22:59:23.531Z",
+          "createDate": "2013-10-03T22:59:23.531Z",
+          "updateBy": "c220cbcd9ca346698987a19e0081eecc",
+          "createBy": "c220cbcd9ca346698987a19e0081eecc"
+        }
+      }
+    ]
+  }
+  
