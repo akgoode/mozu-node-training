@@ -4,6 +4,8 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 const bodyParser = require('body-parser');
+const MozuEvents = require('./events');
+const mozuEvents = new MozuEvents();
 
 const router = express.Router();
 app.use(bodyParser.json());
