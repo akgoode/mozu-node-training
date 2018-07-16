@@ -69,7 +69,6 @@ attributeToAdd = {
     vocabularyValues: [
         {
             value: "Petite",
-            valueSequence: 1,
             content: {
                 localeCode: "en-US",
                 stringValue: "Petite"
@@ -78,7 +77,6 @@ attributeToAdd = {
         },
         {
             value: "Classic",
-            valueSequence: 2,
             content: {
                 localeCode: "en-US",
                 stringValue: "Classic"
@@ -87,7 +85,6 @@ attributeToAdd = {
         },
         {
             value: "Alta",
-            valueSequence: 3,
             content: {
                 localeCode: "en-US",
                 stringValue: "Alta"
