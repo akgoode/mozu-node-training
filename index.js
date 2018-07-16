@@ -4,6 +4,7 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 const bodyParser = require('body-parser');
+const eventHandler = require('./eventHandler');
 
 const router = express.Router();
 app.use(bodyParser.json());
@@ -38,7 +39,8 @@ router.post('/', (req, res) => {
 // Route for events to hit
 // this url is configured in the events tab of your app in dev center
 router.post('/events', (req, res) => {
-    console.log(req);
+	console.log(req.body.eventId);
+	console.log(eventHandler(req.body.eventId));
     res.write('test event');
     res.end();
 });
