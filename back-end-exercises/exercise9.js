@@ -1,10 +1,113 @@
 // instantiate API context object
-
+const apiContext = require('mozu-node-sdk/clients/platform/application')();
 // define API resources
-
+const attributeResource = require('mozu-node-sdk/clients/commerce/catalog/admin/attributedefinition/attribute')(apiContext);
+/**
+ * Exercise 9.1
+ * INTERACTING WITH PRODUCT ATTRIBUTES
+ */
 
 // Exercise 9.2
 // define the attribute name
+
+var attributeToAdd = {
+    adminName: "monogram",
+    attributeCode: "monogram",
+    dataType: "String",
+    inputType: "TextBox",
+    isExtra: "true",
+    isOption: "false",
+    isProperty: "false",
+    masterCatalogId: 1,
+    namespace: "tenant",
+    valueType: "ShopperEntered"
+ };
+
+attributeResource.getAttribute({
+    attributeFQN: "tenant~monogram"
+})
+    .then(d => {
+        console.log(JSON.stringify(d, 2, 2));
+        d.content = {
+            localeCode: "en-US",
+            name: "Monogram",
+            description: ''
+        };
+        attributeResource.updateAttribute({
+            attributeFQN: 'tenant~monogram'
+        },{
+            body: d
+        })
+            .then(d => {
+                console.log(d);
+            })
+            .catch(e => {
+                console.log(e);
+            });
+    })
+    .catch(e => {
+        console.log(e);
+    });
+
+
+attributeToAdd = {
+    adminName: "purse-size",
+    attributeCode: "purse-size",
+    dataType: "String",
+    inputType: "List",
+    isExtra: false,
+    isOption: true,
+    isProperty: false,
+    masterCatalogId: 1,
+    namespace: "tenant",
+    valueType: "predefined",
+    content: {
+        localeCode: "en-US",
+        name: "Purse-size",
+        description: ''
+    },
+    vocabularyValues: [
+        {
+            value: "Petite",
+            valueSequence: 1,
+            content: {
+                localeCode: "en-US",
+                stringValue: "Petite"
+            },
+            displayOrder: 1
+        },
+        {
+            value: "Classic",
+            valueSequence: 2,
+            content: {
+                localeCode: "en-US",
+                stringValue: "Classic"
+            },
+            displayOrder: 2
+        },
+        {
+            value: "Alta",
+            valueSequence: 3,
+            content: {
+                localeCode: "en-US",
+                stringValue: "Alta"
+            },
+            displayOrder: 3
+        }
+    ]
+ };
+
+ attributeResource.addAttribute({},{
+     body: attributeToAdd
+ })
+    .then(d => {
+        console.log(d);
+    })
+    .catch(e => {
+        console.log(JSON.stringify(e, 2, 2));
+    });
+
+
 
 // 9.2.2
 // add attribute values
