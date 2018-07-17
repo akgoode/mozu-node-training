@@ -5,10 +5,6 @@ module.exports = function(eventId){
     eventResource.getEvent({
         eventId: eventId
     })
-        .then(data => {
-            console.log(data);
-        })
-        .catch(error => {
-            console.log(error);
-        })
-}
+        .then(console.log)
+        .catch(console.log);
+};
