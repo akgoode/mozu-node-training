@@ -27,7 +27,6 @@ attributeResource.getAttribute({
     attributeFQN: "tenant~monogram"
 })
     .then(d => {
-        console.log(JSON.stringify(d, 2, 2));
         d.content = {
             localeCode: "en-US",
             name: "Monogram",
@@ -38,16 +37,10 @@ attributeResource.getAttribute({
         },{
             body: d
         })
-            .then(d => {
-                console.log(d);
-            })
-            .catch(e => {
-                console.log(e);
-            });
+            .then(console.log)
+            .catch(console.log);
     })
-    .catch(e => {
-        console.log(e);
-    });
+    .catch(console.log);
 
 
 attributeToAdd = {
@@ -97,12 +90,8 @@ attributeToAdd = {
  attributeResource.addAttribute({},{
      body: attributeToAdd
  })
-    .then(d => {
-        console.log(d);
-    })
-    .catch(e => {
-        console.log(JSON.stringify(e, 2, 2));
-    });
+    .then(console.log)
+    .catch(console.log);
 
 
 

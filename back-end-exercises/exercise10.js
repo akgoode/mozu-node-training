@@ -22,9 +22,7 @@ productTypeResource.getProductTypes({
             });
         });
     })
-    .catch(e => {
-        console.log(e);
-    });
+    .catch(console.log);
 
 
 /*
@@ -32,18 +30,13 @@ productTypeResource.getProductTypes({
  * Add extra monogram to Footwear product type
  */
 
-// helper function
-const logResult = function (data) {
-    console.log(data);
-};
-
 const fetchProductTypeSuccess = function (productTypeData) {
         // get attribute we want to add to product type
         attributeResource.getAttribute({
             attributeFQN: "tenant~monogram"
         })
             .then(data => fetchAttributeSuccess(data, productTypeData.items[0]))
-            .catch(logResult);
+            .catch(console.log);
 };
 
 const fetchAttributeSuccess = function (attributeData, productTypeData) {
@@ -56,8 +49,8 @@ const fetchAttributeSuccess = function (attributeData, productTypeData) {
     }, {
         body: productTypeData
     })
-        .then(logResult)
-        .catch(logResult);
+        .then(console.log)
+        .catch(console.log);
 };
 
 // gets product type by name
@@ -65,4 +58,4 @@ productTypeResource.getProductTypes({
     filter: "name eq Footwear"
 })
     .then(data => fetchProductTypeSuccess(data))
-    .catch(logResult);
+    .catch(console.log);

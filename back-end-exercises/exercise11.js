@@ -3,7 +3,6 @@ const apiContext = require('mozu-node-sdk/clients/platform/application')();
 // define API resources
 const productResource = require('mozu-node-sdk/clients/commerce/catalog/admin/product')(apiContext);
 
-const logResult = (data) => console.log(data);
 /*
  * Exercise 11.1 INTERACTING WITH PRODUCTS
  */
@@ -26,7 +25,7 @@ productResource.getProducts({
         });
         console.log(totalConfigurableProducts);
     })
-    .catch(logResult);
+    .catch(console.log);
 
 // get count of non configurable products
 productResource.getProducts({
@@ -41,7 +40,7 @@ productResource.getProducts({
         });
         console.log(totalNonConfigurableProducts);
     })
-    .catch(logResult);
+    .catch(console.log);
     
 /*
  * Exercise 11.2 CREATE A NEW PRODUCT
@@ -82,12 +81,12 @@ const createProduct = () => {
     productResource.addProduct({}, {
         body: productBody
     })
-        .then(logResult)
-        .catch(logResult);
+        .then(console.log)
+        .catch(console.log);
 }
 
 productResource.getProduct({
     productCode: "bag-2001"
 })
-    .then(logResult)
+    .then(console.log)
     .catch(createProduct);
